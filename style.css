@@ -165,7 +165,6 @@ body{
 
 .top-bar{
     background-color: var(--white);
-    overflow: hidden;
     padding: 7.2em 6.8em 2.2em 6.8em;
 }
 
@@ -541,6 +540,7 @@ body{
     }
     .top-bar{
         font-size: 6.25px;
+        overflow-x: hidden;
     }
     .top-bar__row__trial-col, .top-bar__row__nav-col, .top-bar__row__number-col{
         display: flex;
