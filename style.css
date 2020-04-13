@@ -161,27 +161,6 @@ body{
     transition: 0.15s all ease-in-out;
 }
 
-.burger-menu.active{
-    position: fixed;
-    z-index: 1001;
-}
-
-.burger-menu.active span{
-    background-color: var(--main-red-color);
-}
-
-.burger-menu.active span:after{
-    width: 2.2em;
-    left: 1.1em;
-    background-color: var(--main-red-color);
-}
-
-.burger-menu.active span:before{
-    width: 2.2em;
-    left: 1.1em;
-    background-color: var(--main-red-color);
-}
-
 /* TOP BAR */
 
 .top-bar{
@@ -563,6 +542,7 @@ body{
     }
     .burger-menu{ 
         display: block;
+        outline: none;
     }
     .close-btn{
         display: block;
@@ -576,5 +556,66 @@ body{
     }
     .our-credentials, .contact-us{
         font-size: 7px;
+    }
+    @media screen and (max-width: 578px){
+        html{
+            font-size: 55%;
+        }
+        .refenzen-gallery{
+            font-size: 7px;
+        }
+        .contact-us .main-section-btn{
+            padding: 1.7rem 5.9rem 2rem 5.9rem;
+        }
+        .refenzen-gallery__row-block{
+            max-width: 60%;
+            width: 60%;
+        }
+        .refenzen-gallery__row div:nth-child(1) .refenzen-gallery__row-block, .refenzen-gallery__row div:nth-child(4) .refenzen-gallery__row-block, .refenzen-gallery__row div:nth-child(7) .refenzen-gallery__row-block{
+            padding: 7.05em 4.5em;
+        }
+        .refenzen-gallery__row div:nth-child(2) .refenzen-gallery__row-block, .refenzen-gallery__row div:nth-child(5) .refenzen-gallery__row-block, .refenzen-gallery__row div:nth-child(8) .refenzen-gallery__row-block{
+            padding: 3.95em 4.5em;
+        }
+        .footer__description{
+            margin-bottom: 2em;
+        }
+        .footer{ 
+            font-size: 9px;
+        }
+        .main-section-description {
+            max-width: 100%;
+        }
+        .our-credentials, .contact-us{
+            padding-left: 1em;
+            padding-right: 1em;
+        }
+        .bottom-bar__row__partners-col{
+            justify-content: flex-start;
+            padding-left: 0;
+        }
+        .bottom-bar__row__partners-col img{
+            margin-left: 0;
+            margin-right: 2em;
+            max-width: 9.5em;
+        }
+    }
+    @media screen and (max-width: 420px){
+        .refenzen-gallery__row-block{
+            max-width: 80%;
+            width: 80%;
+        }
+        .bottom-bar__row__menu-col ul li a {
+            margin-right: 1.5rem;
+        }
+        .main-section-title{
+            font-size: 3.9em;
+        }
+        .main-section-btn{
+            padding: 1.2rem 3.9rem 1.5rem 3.9rem !important;
+        }
+        .refenzen-gallery{
+            padding-top: 4em;
+        }
     }
 }
