@@ -375,14 +375,6 @@ body{
 }
 
 
-.refenzen-gallery__row > div:nth-child(1) .refenzen-gallery__row-block{
-    padding: 7.05em 4.5em;
-}
-
-.refenzen-gallery__row > div:nth-child(2) .refenzen-gallery__row-block{
-    padding: 3.95em 4.5em;
-}
-
 .refenzen-gallery__row-block img{
     margin: 0 auto;
     display: block;
