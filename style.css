@@ -90,6 +90,82 @@ body{
     background-color: transparent;
 }
 
+/* BURGER MENU */
+
+.burger-menu{
+    width: 3em;
+    height: 3em;
+    outline: none;
+    background-color: transparent;
+    position: absolute;
+    top: 1em;
+    right: 1.8em;
+    z-index: 2;
+    border: none;
+    outline: none;
+    display: none;
+}
+
+.burger-menu span{
+    content: '';
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    width: 2.9em;
+    height: 0.27rem;
+    background-color: #000;
+    border-radius: 0.4em;
+    transition: 0.15s all ease-in-out;
+}
+
+.burger-menu span:after{
+    content: '';
+    position: absolute;
+    top: -0.8em;
+    left: 50%;
+    transform: translate(-50%, 0%);
+    width: 3em;
+    height: 0.27rem;
+    background-color: #000;
+    border-radius: 0.4em;
+    transition: 0.15s all ease-in-out;
+}
+
+.burger-menu span:before{
+    content: '';
+    position: absolute;
+    top: 0.8em;
+    left: 50%;
+    transform: translate(-50%, 0%);
+    width: 3em;
+    height: 0.27rem;
+    background-color: #000;
+    border-radius: 0.4em;
+    transition: 0.15s all ease-in-out;
+}
+
+.burger-menu.active{
+    position: fixed;
+    z-index: 1001;
+}
+
+.burger-menu.active span{
+    background-color: var(--main-red-color);
+}
+
+.burger-menu.active span:after{
+    width: 2.2em;
+    left: 1.1em;
+    background-color: var(--main-red-color);
+}
+
+.burger-menu.active span:before{
+    width: 2.2em;
+    left: 1.1em;
+    background-color: var(--main-red-color);
+}
+
 /* TOP BAR */
 
 .top-bar{
@@ -118,6 +194,7 @@ body{
 
 .top-bar__row__nav-col{
     padding-left: 0;
+    position: relative;
 }
 
 .top-bar__row__nav-col .top-bar__row__nav-col__list{
@@ -262,6 +339,11 @@ body{
     padding: 11em 0em 3em 0em;
 }
 
+.refenzen-gallery__row > div{
+    justify-content: center;
+    display: flex;
+}
+
 .refenzen-gallery__row-block{
     padding: 6.8em 4.5em;
     background-color: #FFF;
@@ -282,6 +364,7 @@ body{
 .refenzen-gallery__row-block img{
     margin: 0 auto;
     display: block;
+    max-width: 20.5em;
 }
 
 /* CONTACT US */
@@ -405,4 +488,34 @@ body{
 
 .bottom-bar__row__partners-col img{
     margin-left: 3.2em;
+}
+
+/* MEDIA QUERIES REFENZEN PAGE */
+
+@media screen and (max-width: 1300px){
+    html{
+        font-size: 55%;
+    }
+}
+
+@media screen and (max-width: 1192px){
+    html{
+        font-size: 46%;
+    }
+}
+
+@media screen and (max-width: 992px){
+    html{
+        font-size: 38.5%;
+    }
+}
+
+@media screen and (max-width: 840px){
+    html{
+        font-size: 35.5%;
+    }
+}
+
+@media screen and (max-width: 768px){
+    
 }
