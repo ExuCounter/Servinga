@@ -14,27 +14,27 @@
 
 @font-face{
     font-family: 'Averta Regular';
-    src: url('../fonts/Averta-Regular.woff') format('woff');
+    src: url('fonts/Averta-Regular.woff') format('woff');
 }
 
 @font-face{
     font-family: 'Averta Bold';
-    src: url('../fonts/Averta-Bold.woff') format('woff');
+    src: url('fonts/Averta-Bold.woff') format('woff');
 }
 
 @font-face{
     font-family: 'Averta Semibold';
-    src: url('../fonts/Averta-Semibold.woff') format('woff');
+    src: url('fonts/Averta-Semibold.woff') format('woff');
 }
 
 @font-face{
     font-family: 'Averta Light';
-    src: url('../fonts/Averta-Light.woff') format('woff');
+    src: url('fonts/Averta-Light.woff') format('woff');
 }
 
 @font-face{
     font-family: 'Averta Thin';
-    src: url('../fonts/averta-thin-webfont.woff') format('woff');
+    src: url('fonts/averta-thin-webfont.woff') format('woff');
 }
 
 /* BASE SETTINGS */
@@ -282,7 +282,7 @@ body{
 .top-bar__row__nav-col .top-bar__row__nav-col__list li p:after{
     content: '';
     position: absolute;
-    background-image: url('../img/arrow-down.svg');
+    background-image: url('img/arrow-down.svg');
     width: 0.5em;
     height: 0.3125em;
     background-size: 0.5em 0.3125em;
@@ -349,7 +349,7 @@ body{
 }
 
 .refenzen-gallery{
-    background-image: url('../img/refenzen-gallery-bg.svg');
+    background-image: url('img/refenzen-gallery-bg.svg');
     background-size: cover;
     
 }
@@ -419,7 +419,7 @@ body{
 /* FOOTER */
 
 .footer{
-    background-image: url('../img/footer-image.svg');
+    background-image: url('img/footer-image.svg');
     background-size: cover;
 }
 
