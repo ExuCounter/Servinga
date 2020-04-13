@@ -165,6 +165,7 @@ body{
 
 .top-bar{
     background-color: var(--white);
+    overflow: hidden;
     padding: 7.2em 6.8em 2.2em 6.8em;
 }
 
@@ -395,6 +396,7 @@ body{
 .footer{
     background-image: url('img/footer-image.svg');
     background-size: cover;
+    margin-left: -0.1em;
 }
 
 .footer__row__description-col svg{
@@ -636,7 +638,10 @@ body{
             margin: 2em 0em 0em 2.75em;
         }
         .top-bar__row__logo-col{
-            padding-left: 3em;
+            padding:0em 3em;
+        }
+        .burger-menu{
+            right: 3.5rem;
         }
 }
 
