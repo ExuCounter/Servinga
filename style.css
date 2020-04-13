@@ -620,8 +620,7 @@ body{
             max-width: 9.5em;
         }
         .top-bar__row__nav-col__sub-list{
-            right: 2em;
-            left: unset;
+            left: 0em;
             top: 2em;
             padding-left: 0em;
             padding-right: 1.5em;
@@ -649,6 +648,9 @@ body{
         .refenzen-gallery__row-block{
             max-width: 80%;
             width: 80%;
+        }
+        .top-bar__row__nav-col__sub-list{
+            left: 0em;
         }
         .bottom-bar__row__menu-col ul li a {
             margin-right: 1.5rem;
