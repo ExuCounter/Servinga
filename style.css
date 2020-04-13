@@ -557,7 +557,21 @@ body{
     .our-credentials, .contact-us{
         font-size: 7px;
     }
-    @media screen and (max-width: 578px){
+    .top-bar__row__nav-col__list li{
+        display: flex;
+        justify-content: flex-start;
+        margin-left: 1.5em;
+        font-size: 19px;
+    }
+    .top-bar__row__nav-col__sub-list{
+        left: 10em;
+        top: 0em;
+        padding-left: 0em;
+        padding-right: 1.5em;
+    }
+}
+
+@media screen and (max-width: 578px){
         html{
             font-size: 55%;
         }
@@ -599,8 +613,16 @@ body{
             margin-right: 2em;
             max-width: 9.5em;
         }
-    }
-    @media screen and (max-width: 420px){
+        .top-bar__row__nav-col__sub-list{
+            right: 2em;
+            left: unset;
+            top: 2em;
+            padding-left: 0em;
+            padding-right: 1.5em;
+        }
+}
+
+@media screen and (max-width: 420px){
         .refenzen-gallery__row-block{
             max-width: 80%;
             width: 80%;
@@ -617,5 +639,4 @@ body{
         .refenzen-gallery{
             padding-top: 4em;
         }
-    }
 }
