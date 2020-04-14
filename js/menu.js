@@ -2,6 +2,18 @@ let burgerMenu = document.querySelector('.burger-menu'); // BURGER
 let topBarNavCol = document.querySelector('.top-bar__row__nav-col__list'); // CONTAINER
 let menuLinks = document.querySelectorAll('.top-bar__row-col__nav a');
 let closeMenuBtn = document.querySelector('.close-btn');
+let menuButtons = document.querySelectorAll('.top-bar__row__nav-col .top-bar__row__nav-col__list p');
+
+menuButtons.forEach((item)=>{
+    item.addEventListener('click', ()=>{
+        if(!(item.classList.contains('active'))){
+            item.classList.add('active');
+        }
+        else{
+            item.classList.remove('active');
+        }
+    })
+})
 
 burgerMenu.addEventListener('click', ()=>{
     if(!(topBarNavCol.classList.contains('active'))){  

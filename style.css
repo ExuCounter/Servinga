@@ -58,6 +58,10 @@ body{
     color: var(--main-color);
 }
 
+.footer{
+    margin-left: -1px;
+}
+
 .close-btn{
     border: none;
     background-color: transparent;
@@ -265,6 +269,14 @@ body{
     position: relative;
 }
 
+.top-bar__row__nav-col .top-bar__row__nav-col__list li a{
+    transition: 0.1s ease-in-out;
+}
+
+.top-bar__row__nav-col .top-bar__row__nav-col__list li a:hover{
+    color: #21387f;
+}
+
 .top-bar__row__nav-col .top-bar__row__nav-col__list li p{
     position: relative;
     padding-bottom: 1.2em;
@@ -447,7 +459,6 @@ body{
     font-size: 1.6em;
     font-family: var(--averta-thin);
     color: #FFF;
-    text-decoration: none;
 }
 
 /* BOTTOM BAR FOOTER*/
@@ -578,11 +589,17 @@ body{
     }
     .top-bar__row__nav-col__sub-list{
         display: flex;
+        height: 0;
+        opacity:0;
         border: none;
         flex-direction: column;
         position: relative;
         padding: 0em;
         top: 0em !important;
+    }
+    .top-bar__row__nav-col .top-bar__row__nav-col__list p.active ~ .top-bar__row__nav-col__sub-list{
+        opacity: 1;
+        height: auto;
     }
     .top-bar__row__nav-col .top-bar__row__nav-col__list li p {
         padding-bottom: 0;
