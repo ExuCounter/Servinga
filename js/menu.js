@@ -26,10 +26,6 @@ burgerMenu.addEventListener('click', ()=>{
     }
 })
 
-closeMenuBtn.addEventListener('click', ()=>{
-    burgerMenu.classList.remove('active');
-    topBarNavCol.classList.remove('active');
-});
 
 let rightPieceMenu = `
     <div class="top-bar__row__trial-col">
