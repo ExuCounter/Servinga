@@ -534,8 +534,7 @@ body{
 
 .contact-form{
     padding: 10em 0em 6.5em 0em;
-    background-image: url('img/contact-form-bg.svg');
-    background-size: cover;
+    background-color: var(--main-color);
 }
 
 .contact-form h1{
@@ -671,6 +670,7 @@ body{
 .find{
     background-color: #F3F3F3;
     text-align: left !important;
+    overflow-x: hidden;
 }
 
 .find__container{
@@ -679,7 +679,8 @@ body{
 }
 
 .find__row-col:nth-child(1){
-    padding: 12.4em 0em 10em 0em;
+    padding-top: 12.4em;
+    padding-bottom: 10em;
     display: flex;
     justify-content: center;
     flex-direction: column;
@@ -703,9 +704,7 @@ body{
 
 .find__row-col__map{
     background: url('img/map.svg');
-        background-size: auto;
-        width: 100%;
-        height: 100%;
+    background-size: cover;
 
 }
 
@@ -720,6 +719,9 @@ body{
 @media screen and (max-width: 1192px){
     html{
         font-size: 46%;
+    }
+    .benefits__row{
+        justify-content: space-around;
     }
 }
 
@@ -895,12 +897,47 @@ body{
         .top-bar__row__nav-col .top-bar__row__nav-col__list li:nth-child(2) p:after{
             right: 3.2em;
         }
+        .benefits__row{
+            flex-direction: column;
+            align-items: center;
+        }
+        .benefits__row > div{
+            margin-bottom: 3em;
+        }
+        .find__row-col__map{
+            height: 45rem;
+            background-size: cover;
+        }
+        .find__row-col{
+            padding: 7em 0em 4em 0em !important;
+        }
+        .find{
+            font-size: 12px;
+        }
+        .benefits{
+            font-size: 10px;
+        }
+        .benefits .container{
+            padding: 7em 0em;
+        }
+        .contact-form__row__left-col{
+            font-size: 9px;
+        }
+        .main-section-description{
+            padding: 0em 1.5em 2em 1.5em;
+        }
 }
 
 @media screen and (max-width: 420px){
         .refenzen-gallery__row-block{
             max-width: 80%;
             width: 80%;
+        }
+        .find{
+            font-size: 10px;
+        }
+        .benefits{
+            font-size: 8px;
         }
         .top-bar__row__nav-col__sub-list{
             left: 0em;
@@ -929,5 +966,28 @@ body{
         }
         .refenzen-gallery__row-block{
             height: 16em;
+        }
+        .contact-form .splitted-row{
+            display: flex;
+            flex-direction: column;
+        }
+        .contact-form .splitted-row input{
+            width: 100%;
+        }
+        .contact-form .splitted-row input:nth-child(1){
+            margin-bottom: 2em;
+        }
+        .contact-description, .contact-description__links a{
+            font-size: 1.4em;
+        }
+        .contact-form h1{
+            font-size: 4.1em;
+        }
+        .contact-form{
+            padding-top: 6.5em;
+        }
+        .find__row-col__map{
+            height: 30rem;
+            background-size: cover;
         }
 }
