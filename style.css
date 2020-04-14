@@ -50,6 +50,8 @@ img, svg{
 
 html{
     font-size: 62.5%;
+    overflow-y: scroll;
+    height: 100vh;
 }
 
 body{
