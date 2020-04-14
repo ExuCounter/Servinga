@@ -50,19 +50,12 @@ img, svg{
 
 html{
     font-size: 62.5%;
-    overflow-y: scroll;
-    height: 100vh;
 }
 
 body{
     font-size: 100%;
-    display: flex;
-    flex-direction: column;
     font-family: var(--averta-regular);
     color: var(--main-color);
-    position: relative;
-    top: 0;
-    left: 0;
 }
 
 .close-btn{
@@ -410,7 +403,6 @@ body{
 .footer{
     background-image: url('img/footer-image.svg');
     background-size: cover;
-    margin-left: -0.1em;
 }
 
 .footer__row__description-col img{
@@ -652,7 +644,7 @@ body{
         }
         .top-bar{
             font-size: 12px;
-            padding: 1em 0em 1.5em 0em;
+            padding: 1em 1.5em 2em;
         }
         .top-bar__row__number-col-sm, .top-bar__row__trial-col-sm{
             display: none;
