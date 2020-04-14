@@ -358,10 +358,9 @@ body{
 
 .refenzen-gallery__row-block{
     display: flex;
-    padding: 6.8em 4.5em;
+    padding: 6em 3em;
     background-color: #FFF;
     margin-bottom: 6.9em;
-    max-width: 28.2em;
     cursor: pointer;
 }
 
