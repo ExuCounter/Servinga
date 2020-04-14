@@ -97,6 +97,7 @@ body{
     display: block;
     margin: 0 auto;
     padding-bottom: 2.6em;
+    text-align: center;
 
 }
 
@@ -521,6 +522,191 @@ body{
 .bottom-bar__row__partners-col img{
     margin-left: 3.2em;
     max-height: 4.8em;
+}
+
+
+/* CONTACT FORM */
+
+.contact-page .container{
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+.contact-form{
+    padding: 10em 0em 6.5em 0em;
+    background-image: url('img/contact-form-bg.svg');
+    background-size: cover;
+}
+
+.contact-form h1{
+    color: var(--white);
+    font-size: 5em;
+    margin-bottom: 3.2rem;
+}
+
+.contact-from__description{
+    font-family: var(--averta-light);
+    font-size: 1.6em;
+    color: #BBBBBB;
+    line-height: 2em;
+    max-width: 47rem;
+    padding-bottom: 7rem;
+}
+/* 
+.contact-from__description span{
+    text-decoration: underline;
+} */
+
+.contact-description{
+    font-size: 1.2em;
+    font-family: var(--averta-light);
+    color: #BBBBBB;
+    margin-bottom: 2rem;
+    line-height: 2.5rem;
+}
+
+.contact-description__links{
+    display: flex;
+}
+
+.contact-description__links a{
+    font-size: 1.2em;
+    color: var(--white);
+}
+
+.contact-description__links a:nth-child(1){
+    margin-right: 6.8rem;
+}
+
+.contact-form form{ 
+    padding-top: 2.5rem;
+}
+
+.contact-form form .splitted-row{
+    display: flex;
+    margin-bottom: 2.5rem;
+}
+
+.contact-form form textarea{
+    margin-bottom: 2.5rem;
+}
+
+.contact-form form .splitted-row input:nth-child(1){
+    margin-right: 2.7rem;
+}
+
+.contact-form form input, .contact-form form textarea{
+    border: none;
+    outline: none;
+    font-size: 1.6em;
+    color: #A6a6a6;
+    padding: 1.5rem 1.8rem;
+    border-radius: 0.7rem;
+    width: 100%;
+}
+
+.contact-form form input::placeholder{
+    color: #A6a6a6;
+}
+
+.contact-form .submit-btn{
+    background-color: var(--white);
+    color: var(--main-color);
+    text-transform: uppercase;
+    border-radius: 0.7rem;
+    font-size: 1.3em;
+    padding: 1.5em 4.3em;
+    font-family: var(--averta-semibold);
+    border: solid 2px #FFF;
+    transition: 0.2s ease-in-out;
+    margin-top: 1rem;
+    margin-bottom: 3.4rem;
+
+}
+
+.contact-form .submit-btn:hover{
+    background-color: transparent;
+    color: #FFF;
+}
+
+/* BENEFITS SECTION */
+
+.benefits .container{
+    max-width: 1040px;
+    margin: 0 auto;
+    padding: 11.5em 1.5em;
+}
+
+.benefits__row{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 5em;
+}
+
+.benefits__row-col{
+    background-color: var(--main-color);
+    display: flex;
+    padding: 5.2em 3.7em;
+    flex-direction: column;
+    text-align: center;
+    border-radius: 1.5rem;
+    max-width: 26.3em;
+    cursor: pointer;
+}
+
+.benefits__row-col__title{
+    color: var(--white);
+    font-size: 1.9em;
+    padding: 1.1em 0em;
+}
+
+.benefits__row-col__description{
+    color: #82809C;
+    font-size: 1.4em;
+    font-family: var(--averta-light);
+}
+
+/* FIND SECTION */
+
+.find{
+    background-color: #F3F3F3;
+    text-align: left !important;
+}
+
+.find__container{
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+.find__row-col:nth-child(1){
+    padding: 12.4em 0em 10em 0em;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.find__row-col__title{
+    font-size: 2em;
+    color: var(--main-color);
+    margin-bottom: 2.4rem;
+    text-align: left;
+
+}
+
+.find__row-col__description{
+    padding-bottom: 2.4rem;
+    font-size: 1.4em;
+    font-family: var(--averta-light);
+    color: var(--main-color);
+}
+
+.find__row-col__map{
+    background: url('img/map.svg');
+        background-size: auto;
+        width: 100%;
+        height: 100%;
+
 }
 
 /* MEDIA QUERIES REFENZEN PAGE */

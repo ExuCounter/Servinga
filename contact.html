@@ -10,7 +10,7 @@
     <link rel="stylesheet" href="normalize.css">
     <link rel="stylesheet" href="style.css">
 </head>
-<body class='refenzen-page'>
+<body class='contact-page'>
 
     <!-- TOP BAR -->
     <div class="top-bar">
@@ -100,79 +100,133 @@
         </div>
     </div>
 
-    <!-- OUR CREDENTIALS -->
 
-    <section class="our-credentials">
+    <!-- CONTACT FORM -->
+
+    <section class="contact-form">
         <div class="container">
-            <h1 class="main-section-title our-credentials__title">
-                Unsere Referenzen 
-            </h1>
-            <p class="main-section-description our-credentials__description">
-                Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore.
-            </p>
-            <button class="main-section-btn">
-                Mehr zu servinga
-            </button>
-        </div>
-    </section>
-
-    <!-- GALLERY -->
-
-    <section class="refenzen-gallery">
-        <div class="container">
-            <div class="refenzen-gallery__row row">
-                <div class="col-sm-4 col-12">
-                    <div class="refenzen-gallery__row-block">
-                        <img src="img/arista-seeklogo.com.svg" alt="Arista">
+            <div class="contact-form__row row">
+                <div class="col-6">
+                    <h1>
+                        Kontakt<br> aufnehmen
+                    </h1>
+                    <p class='contact-from__description'>
+                        Benutzen Sie unser Kontaktformular für alle Informationsanfragen oder kontaktieren Sie uns direkt über die untenstehenden Kontaktinformationen. Alle Informationen werden absolut vertraulich und in Übereinstimmung mit unserer <span>Datenschutzerklärung</span> behandelt.
+                    </p>
+                    <p class="contact-description">
+                        Zögern Sie nicht, mit uns per E-Mail oder Telefon in Kontakt zu treten.
+                    </p>
+                    <div class="contact-description__links">
+                        <a href="mailto:servingo@info.com">servingo@info.com</a>
+                        <a href="tel:+49 69 348 75 11 0">+49 69 348 75 11 0</a>
                     </div>
                 </div>
-                <div class="col-sm-4 col-12">
-                    <div class="refenzen-gallery__row-block">
-                        <img src="img/refenzen-gallery-img-2.svg" alt="Ceph">
-                    </div>
-                </div>
-                <div class="col-sm-4 col-12">
-                    <div class="refenzen-gallery__row-block">
-                        <img src="img/refenzen-gallery-img-3.svg" alt="Openstack">
-                    </div>
-                </div>
-                <div class="col-sm-4 col-12">
-                    <div class="refenzen-gallery__row-block">
-                        <img src="img/arista-seeklogo.com.svg" alt="Arista">
-                    </div>
-                </div>
-                <div class="col-sm-4 col-12">
-                    <div class="refenzen-gallery__row-block">
-                        <img src="img/refenzen-gallery-img-2.svg" alt="Ceph">
-                    </div>
-                </div>
-                <div class="col-sm-4 col-12">
-                    <div class="refenzen-gallery__row-block">
-                        <img src="img/refenzen-gallery-img-3.svg" alt="Openstack">
-                    </div>
-                </div>
-                <div class="col-sm-4 col-12">
-                    <div class="refenzen-gallery__row-block">
-                        <img src="img/arista-seeklogo.com.svg" alt="Arista">
-                    </div>
-                </div>
-                <div class="col-sm-4 col-12">
-                    <div class="refenzen-gallery__row-block">
-                        <img src="img/refenzen-gallery-img-2.svg" alt="Ceph">
-                    </div>
-                </div>
-                <div class="col-sm-4 col-12">
-                    <div class="refenzen-gallery__row-block">
-                        <img src="img/refenzen-gallery-img-3.svg" alt="Openstack">
-                    </div>
+                <div class="col-6">
+                    <form action="#" class="form">
+                        <div class="splitted-row">
+                            <input type="text" name='vorname' placeholder='Vorname'>
+                            <input type="text" name='nachname' placeholder='Nachname'>
+                        </div>
+                        <div class="splitted-row">
+                            <input type="text" name='email' placeholder='E-Mail'>
+                            <input type="text" name='telephone' placeholder='Telefon'>
+                        </div>
+                        <div class="splitted-row">
+                            <input type="text" name='unternehmen' placeholder='Unternehmen'>
+                            <input type="text" name='position' placeholder='Position'>
+                        </div>
+                        <textarea name="message" rows="4" placeholder='Ihre Nachricht'></textarea>
+                        <button type='submit' class='submit-btn'>
+                            Nachricht Absenden
+                        </button>
+                        <p class="contact-description">
+                            Mit einem Klick auf "Senden" erklären Sie sich damit einverstanden, dass Servinga Ihre persönlichen Daten, wie sie für die Informationsanfrage benötigt werden, verarbeiten kann. Sie haben die Datenschutzerklärung gelesen.
+                        </p>
+                    </form>
                 </div>
             </div>
         </div>
     </section>
 
-    <!-- FOOTER -->
+    <!-- BENEFITS SECTION -->
 
-    <footer class="footer">
+    <section class="benefits">
+        <div class="container">
+            <h1 class="main-section-title benefits-title">
+                Wie Sie profitieren
+            </h1>
+            <p class='main-section-description benefits-description'>
+                Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore.
+            </p>
+            <div class="benefits__row">
+                <div class="benefits__row-col">
+                    <img src="img/benefits1.svg" alt="Benefits image">
+                    <span class="benefits__row-col__title">
+                        Garantiert Sorgefrei
+                    </span>
+                    <p class="benefits__row-col__description">
+                        Lorem ipsum dolor sit amet,
+                        consectetuer discpi.
+                    </p>
+                </div>
+                <div class="benefits__row-col">
+                    <img src="img/benefits2.svg" alt="Benefits image">
+                    <span class="benefits__row-col__title">
+                        24h Support
+                    </span>
+                    <p class="benefits__row-col__description">
+                        Lorem ipsum dolor sit amet,
+                        consectetuer discpi.
+                    </p>
+                </div>
+                <div class="benefits__row-col">
+                    <img src="img/benefits3.svg" alt="Benefits image">
+                    <span class="benefits__row-col__title">
+                        99,9% Erreichbarkeit
+                    </span>
+                    <p class="benefits__row-col__description">
+                        Lorem ipsum dolor sit amet,
+                        consectetuer discpi.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FIND SECTION -->
+
+    <div class="find">
+        <div class="find__container">
+            <div class="find__row row">
+                <div class="col-6 find__row-col">
+                    <div>
+                        <h4 class="find__row-col__title">
+                            Kontakt aufnehmen
+                        </h4>
+                        <p class="find__row-col__description">
+                            Lorem ipsum dolor sit amet, consectetuer<br> adipiscing elit. Aenean massa. Ligula eget dolor.
+                        </p>
+                        <p class="find__row-col__description">
+                            info@servinga.com<br>+49 69 348 75 11 99
+                        </p>
+                        <p class="find__row-col__description">
+                            Mainzer Landstr. 351-353<br>60326 Frankfurt am Main
+                        </p>
+                    </div>
+                </div>
+                <div class="col-6 find__row-col">
+                    <div class="find__row-col__map">
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+       <!-- FOOTER -->
+
+       <footer class="footer">
         <div class="container">
             <!-- CONTACT US -->
             <div class="contact-us">
