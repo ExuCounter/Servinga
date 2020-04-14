@@ -10,6 +10,15 @@
     --averta-thin: 'Averta Thin', sans-serif;
 }
 
+img, svg{
+    image-rendering: optimizeQuality;
+    image-rendering: -moz-crisp-edges;
+    image-rendering: -webkit-optimize-contrast;
+    image-rendering: optimize-contrast;
+    image-rendering: pixelated;
+    -ms-interpolation-mode: nearest-neighbor;
+}
+
 /* FONTS */
 
 @font-face{
@@ -570,10 +579,23 @@ body{
         font-size: 19px;
     }
     .top-bar__row__nav-col__sub-list{
-        left: 0em;
-        top: 0em;
-        padding-left: 0em;
-        padding-right: 1.5em;
+        display: flex;
+        border: none;
+        flex-direction: column;
+        position: relative;
+        padding: 0em;
+        top: 0em !important;
+    }
+    .top-bar__row__nav-col .top-bar__row__nav-col__list li p {
+        padding-bottom: 0;
+    }
+    .top-bar__row__nav-col .top-bar__row__nav-col__list li {
+        flex-direction: column;
+        padding-bottom: 1.2em;
+    }
+    .top-bar__row__nav-col__sub-list li{
+        padding-bottom: 0 !important;
+        font-size: 80% !important;
     }
 }
 
@@ -585,7 +607,7 @@ body{
             font-size: 7px;
         }
         .contact-us .main-section-btn{
-            padding: 1.7rem 5.9rem 2rem 5.9rem;
+            padding: 1.7rem 5.9rem 1.7rem 5.9rem;
         }
         .refenzen-gallery__row-block{
             max-width: 60%;
@@ -659,7 +681,7 @@ body{
             font-size: 3.9em;
         }
         .main-section-btn{
-            padding: 1.2rem 3.9rem 1.5rem 3.9rem !important;
+            padding: 1.2rem 3.9rem 1.2rem 3.9rem !important;
         }
         .refenzen-gallery{
             padding-top: 4em;
