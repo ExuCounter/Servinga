@@ -570,9 +570,6 @@ body{
         transform: translate(-150vw);
         overflow-x: hidden;
     }
-    .top-bar__row__nav-col .top-bar__row__nav-col__list li:nth-child(2) p:after{
-        right: 3.8em;
-    }
     .top-bar__row__nav-col .top-bar__row__nav-col__list.active{
         transform: translate(0vw);
     }
@@ -634,6 +631,9 @@ body{
     .top-bar__row__nav-col__sub-list li{
         padding-bottom: 0 !important;
         font-size: 80% !important;
+    }
+    .top-bar__row__nav-col .top-bar__row__nav-col__list li:nth-child(2) p:after{
+        right: 2.5em;
     }
 }
 
@@ -701,6 +701,9 @@ body{
         }
         .contact-us{
             padding-top: 11em;
+        }
+        .top-bar__row__nav-col .top-bar__row__nav-col__list li:nth-child(2) p:after{
+            right: 3.2em;
         }
 }
 
