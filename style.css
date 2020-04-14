@@ -538,7 +538,7 @@ body{
         justify-content:flex-start;
         align-items: flex-start;
         z-index: 3;
-        padding: 15vh 0vh;
+        padding: 10vh 0vh;
         overflow-y: scroll;
         margin-top: 0;
         transform: translate(-150vw);
