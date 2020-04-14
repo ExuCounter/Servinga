@@ -406,7 +406,7 @@ body{
     margin-left: -0.1em;
 }
 
-.footer__row__description-col svg{
+.footer__row__description-col img{
     max-width: 22.8em;
     height: auto;
 }
@@ -698,5 +698,5 @@ body{
 }
 
 @media only screen and (min-device-pixel-ratio: 2) {
-    
+
 }
