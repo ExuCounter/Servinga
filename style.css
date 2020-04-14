@@ -69,7 +69,7 @@ body{
     
 }
 
-.close-btn img{
+.close-btn svg{
     width: 1em;
     height: 1em;
 }
@@ -605,18 +605,15 @@ body{
         .refenzen-gallery{
             font-size: 7px;
         }
-        .contact-us .main-section-btn{
+        .main-section-btn{
             padding: 1.7rem 5.9rem 1.7rem 5.9rem;
         }
         .refenzen-gallery__row-block{
+            align-items: center;
             max-width: 60%;
             width: 60%;
-        }
-        .refenzen-gallery__row div:nth-child(1) .refenzen-gallery__row-block, .refenzen-gallery__row div:nth-child(4) .refenzen-gallery__row-block, .refenzen-gallery__row div:nth-child(7) .refenzen-gallery__row-block{
-            padding: 7.05em 4.5em;
-        }
-        .refenzen-gallery__row div:nth-child(2) .refenzen-gallery__row-block, .refenzen-gallery__row div:nth-child(5) .refenzen-gallery__row-block, .refenzen-gallery__row div:nth-child(8) .refenzen-gallery__row-block{
-            padding: 3.95em 4.5em;
+            display: flex;
+            height: 20em;
         }
         .footer__description{
             margin-bottom: 2em;
@@ -663,6 +660,9 @@ body{
         .burger-menu{
             right: 3.5rem;
         }
+        .contact-us{
+            padding-top: 11em;
+        }
 }
 
 @media screen and (max-width: 420px){
@@ -680,7 +680,7 @@ body{
             font-size: 3.9em;
         }
         .main-section-btn{
-            padding: 1.2rem 3.9rem 1.2rem 3.9rem !important;
+            padding: 1.2rem 3.9rem 1.2rem 3.9rem;
         }
         .refenzen-gallery{
             padding-top: 4em;
@@ -695,8 +695,7 @@ body{
         .top-bar__row__logo-col{
             padding-left: 2em;
         }
-}
-
-@media only screen and (min-device-pixel-ratio: 2) {
-
+        .refenzen-gallery__row-block{
+            height: 16em;
+        }
 }
