@@ -2,26 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c0b16548-ea82-4249-aa2d-0622a623668d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/training.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/training.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/contact.html" beforeDir="false" afterPath="$PROJECT_DIR$/contact.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gulpfile.js" beforeDir="false" afterPath="$PROJECT_DIR$/gulpfile.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/.bin/browser-sync" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.bin/browser-sync" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/.bin/gulp" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.bin/gulp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/.bin/livereload" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.bin/livereload" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/browser-sync/certs/gen.sh" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/browser-sync/certs/gen.sh" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/browser-sync/dist/bin.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/browser-sync/dist/bin.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/browser-sync/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/browser-sync/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/gulp-livereload/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/gulp-livereload/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/gulp-sass/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/gulp-sass/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/gulp-server-livereload/bin/livereload.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/gulp-server-livereload/bin/livereload.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/gulp-server-livereload/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/gulp-server-livereload/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/gulp/bin/gulp.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/gulp/bin/gulp.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/gulp/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/gulp/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/module_name/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/module_name/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/module_name/server.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/module_name/server.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/style.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -117,7 +99,9 @@
       <workItem from="1582018456917" duration="5428000" />
       <workItem from="1582282817000" duration="1322000" />
       <workItem from="1582307689466" duration="103000" />
-      <workItem from="1586885968473" duration="2704000" />
+      <workItem from="1586885968473" duration="3187000" />
+      <workItem from="1586890017218" duration="4983000" />
+      <workItem from="1586897477014" duration="2502000" />
     </task>
     <servers />
   </component>
@@ -149,5 +133,17 @@
       <screen x="0" y="0" width="1600" height="852" />
     </state>
     <state x="289" y="60" key="SettingsEditor/0.0.1600.852@0.0.1600.852" timestamp="1586886150301" />
+    <state x="855" y="253" key="com.intellij.ide.util.TipDialog" timestamp="1586897477801">
+      <screen x="0" y="0" width="1600" height="852" />
+    </state>
+    <state x="855" y="253" key="com.intellij.ide.util.TipDialog/0.0.1600.852@0.0.1600.852" timestamp="1586897477801" />
+    <state x="864" y="190" key="run.anything.popup" timestamp="1586893293542">
+      <screen x="0" y="0" width="1600" height="852" />
+    </state>
+    <state x="864" y="190" key="run.anything.popup/0.0.1600.852@0.0.1600.852" timestamp="1586893293542" />
+    <state x="863" y="173" width="672" height="678" key="search.everywhere.popup" timestamp="1586899885897">
+      <screen x="0" y="0" width="1600" height="852" />
+    </state>
+    <state x="863" y="173" width="672" height="678" key="search.everywhere.popup/0.0.1600.852@0.0.1600.852" timestamp="1586899885897" />
   </component>
 </project>

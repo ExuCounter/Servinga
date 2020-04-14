@@ -608,24 +608,43 @@ body{
     color: #A6a6a6;
 }
 
-.contact-form .submit-btn{
+.white-btn{
     background-color: var(--white);
     color: var(--main-color);
     text-transform: uppercase;
-    border-radius: 0.7rem;
+    border-radius: 0.45rem;
     font-size: 1.3em;
     padding: 1.5em 4.3em;
     font-family: var(--averta-semibold);
-    border: solid 2px #FFF;
+    border: solid 2px var(--white);
     transition: 0.2s ease-in-out;
     margin-top: 1rem;
     margin-bottom: 3.4rem;
 
 }
 
-.contact-form .submit-btn:hover{
+.white-btn:hover{
     background-color: transparent;
     color: #FFF;
+}
+
+.blue-btn{
+    background-color: var(--main-color);
+    color: var(--white);
+    text-transform: uppercase;
+    border-radius: 0.45rem;
+    font-size: 1.3em;
+    padding: 1.5em 4.3em;
+    font-family: var(--averta-semibold);
+    border: solid 2px var(--main-color);
+    transition: 0.2s ease-in-out;
+    margin-top: 1rem;
+
+}
+
+.blue-btn:hover{
+    background-color: transparent !important;
+    color: var(--main-color);
 }
 
 /* BENEFITS SECTION */
@@ -663,6 +682,24 @@ body{
     color: #82809C;
     font-size: 1.4em;
     font-family: var(--averta-light);
+}
+
+.benefits__row-second{
+    justify-content: center;
+}
+
+.jobs-page .benefits .container{
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.benefits__row-second > div{
+    margin: 4.5rem;
+}
+
+.benefits__row img{
+    max-width: 6em;
+    margin: 0 auto;
 }
 
 /* FIND SECTION */
@@ -708,7 +745,129 @@ body{
 
 }
 
-/* MEDIA QUERIES REFENZEN PAGE */
+/* JOBS BENEFITS */
+
+.jobs-page .benefits{
+    background-color: #F0F0F0;
+}
+
+.jobs-page .header{
+    background: url("img/jobs-header.svg");
+}
+
+/* HEADER */
+
+.header{
+    padding: 7em 0em;
+}
+
+.header__title{
+    font-size: 3.7em;
+    padding-bottom: 3.3rem;
+    text-align: center;
+    color: var(--white);
+}
+
+.header__span{
+    font-family: var(--averta-light);
+    font-size: 1.8em;
+    color: #BBBBBB;
+    text-align: center;
+    padding-bottom: 5rem;
+    max-width: 60rem;
+    margin: 0 auto;
+    display: block;
+    line-height: 3rem;
+}
+
+.header__description{
+    font-size: 1.6em;
+    color: #FFF;
+    text-align: center;
+    max-width: 52.5rem;
+    line-height: 2.7rem;
+    margin: 0 auto;
+    display: block;
+    padding-bottom: 3.5em;
+
+}
+
+.jobs{
+    margin: 8.5rem 0rem 7.5rem 0rem;
+}
+
+.jobs-page .white-btn{
+    margin: 0 auto;
+    display: block;
+}
+
+.jobs__block{
+    position: relative;
+    border-bottom: solid 0.5px #efefef;
+    color: var(--main-color);
+    display: block;
+    margin-top: 3em;
+}
+
+.jobs__block:after{
+    color: white;
+}
+
+.jobs__block:hover{
+    text-decoration: none;
+    color: #41569c;
+}
+
+.jobs__block:after{
+    content: '';
+    position: absolute;
+    right: 0;
+    top: 22.5%;
+    background-image: url("img/arrow-right.svg");
+    background-size: 1.1em 2.1em;
+    width: 1.1em;
+    height: 2.1em;
+}
+
+.jobs__block-title{
+    font-size: 2.4em;
+    display: block;
+    max-width: 84%;
+}
+
+.jobs__block-description{
+    font-family: var(--averta-light);
+    font-size: 1.6em;
+    padding-bottom: 3.2rem;
+    padding-top: 0.2em;
+    max-width: 90%;
+}
+
+.jobs-description h3{
+    font-size: 2.4em;
+    color: var(--main-color);
+    margin-bottom: 2rem;
+}
+
+.jobs-description p{
+    font-size: 1.6em;
+    color: var(--main-color);
+    line-height: 2.7rem;
+    margin-bottom: 4.5rem;
+    font-family: var(--averta-light);
+}
+
+.jobs-description ul li{
+    font-size: 1.6em;
+    font-family: var(--averta-light);
+    margin-bottom: 1rem;
+}
+
+.jobs-description ul{
+    padding-left: 2rem;
+}
+
+/* MEDIA QUERIES */
 
 @media screen and (max-width: 1300px){
     html{
@@ -720,8 +879,11 @@ body{
     html{
         font-size: 46%;
     }
-    .benefits__row{
+    .benefits__row-first{
         justify-content: space-around;
+    }
+    .benefits__row-second{
+        justify-content: center;
     }
 }
 
@@ -926,6 +1088,30 @@ body{
         .main-section-description{
             padding: 0em 1.5em 2em 1.5em;
         }
+        .benefits__row-second{
+            margin-top: 0;
+        }
+        .benefits__row-second > div{
+            margin-top: 0.5rem;
+        }
+        .jobs{
+            margin: 8rem 0em;
+        }
+        .jobs__block-description{
+            padding-bottom: 2.7rem;
+        }
+        .jobs-description{
+            margin-top: 4rem;
+        }
+        .jobs{
+            font-size: 7px;
+        }
+        .contact-description, .contact-description__links a{
+            font-size: 1.5em;
+        }
+        .contact-form h1{
+            font-size: 4.3em;
+        }
 }
 
 @media screen and (max-width: 420px){
@@ -939,7 +1125,7 @@ body{
         .benefits{
             font-size: 8px;
         }
-        .top-bar__row__nav-col__sub-list{
+        .top-bar__row__nav-col__видsub-list{
             left: 0em;
         }
         .bottom-bar__row__menu-col ul li a {
@@ -974,7 +1160,7 @@ body{
         .contact-form .splitted-row input{
             width: 100%;
         }
-        .contact-form .splitted-row input:nth-child(1){
+        .contact-form .splitted-row input{
             margin-bottom: 2em;
         }
         .contact-description, .contact-description__links a{
@@ -989,5 +1175,8 @@ body{
         .find__row-col__map{
             height: 30rem;
             background-size: cover;
+        }
+        .contact-form form .splitted-row {
+            margin-bottom: 0;
         }
 }
