@@ -696,3 +696,7 @@ body{
             padding-left: 2em;
         }
 }
+
+@media only screen and (min-device-pixel-ratio: 2) {
+    
+}
