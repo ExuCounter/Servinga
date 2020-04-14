@@ -155,10 +155,9 @@ body{
 .burger-menu span{
     content: '';
     position: absolute;
-    left: 50%;
+    right: 0em;
     top: 50%;
-    transform: translate(-50%, -50%);
-    width: 3em;
+    width: 3.0em;
     height: 0.27rem;
     background-color: #000;
     border-radius: 0.4em;
@@ -308,6 +307,7 @@ body{
     background-size: 0.5em 0.3125em;
     right: 0em;
     top: 0.58em;
+    transition: all 0.2s ease-in-out;
 }
 
 .top-bar__row__trial-col__btn{
@@ -520,6 +520,7 @@ body{
 
 .bottom-bar__row__partners-col img{
     margin-left: 3.2em;
+    max-height: 4.8em;
 }
 
 /* MEDIA QUERIES REFENZEN PAGE */
@@ -634,6 +635,9 @@ body{
     }
     .top-bar__row__nav-col .top-bar__row__nav-col__list li:nth-child(2) p:after{
         right: 2.5em;
+    }
+    .top-bar__row__nav-col .top-bar__row__nav-col__list li p.active:after{
+        transform: rotate(-180deg)
     }
 }
 
