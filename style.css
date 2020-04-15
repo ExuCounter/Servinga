@@ -1281,6 +1281,9 @@ body{
             margin-bottom: 0;
         }
         .blog{
-            font-size: 7px;
+            font-size: 8px;
+        }
+        .blog__row-block__excerpt{
+            margin-bottom: 1.5rem;
         }
 }
