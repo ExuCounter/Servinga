@@ -1468,6 +1468,9 @@ body{
     .price__btn-container{
         justify-content: space-around;
     }
+    .table__description{
+        font-size: 1.6em;
+    }
 }
 
 @media screen and (max-width: 1270px){
