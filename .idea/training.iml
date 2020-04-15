@@ -5,5 +5,6 @@
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="library" name="@types/browser-sync" level="application" />
+    <orderEntry type="library" name="@types/slick-carousel" level="application" />
   </component>
 </module>
