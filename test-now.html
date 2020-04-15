@@ -292,16 +292,45 @@
 <div class="laptop-slider">
     <div class="container">
         <div class="laptop-slider__wrap">
-            <img src="img/macbook-mockup.png" alt="Macbook mockup">
-            <img src="img/macbook-mockup.png" alt="Macbook mockup">
-            <img src="img/macbook-mockup.png" alt="Macbook mockup">
+            <div>
+                <img src="img/macbook-mockup.png" alt="Macbook mockup">
+            </div>
+            <div>
+                <img src="img/macbook-mockup.png" alt="Macbook mockup">
+            </div>
+            <div>
+                <img src="img/macbook-mockup.png" alt="Macbook mockup">
+            </div>
+            <div>
+                <img src="img/macbook-mockup.png" alt="Macbook mockup">
+            </div>
+            <div>
+                <img src="img/macbook-mockup.png" alt="Macbook mockup">
+            </div>
+            <div>
+                <img src="img/macbook-mockup.png" alt="Macbook mockup">
+            </div>
         </div>
-        <h3 class="contact-us__title main-section-title">
-            Kontakt aufnehmen
+        <h3 class="main-section-title pt-5">
+            Produktbeschreibung
         </h3>
-        <p class="contact-us__description main-section-description">
+        <p class="main-section-description">
+            Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean massa. Ligula eget dolor. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean massa. Ligula eget dolor. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean massa. Ligula eget dolor. Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
+        </p>
+    </div>
+</div>
+
+<div class="trial-banner">
+    <div class="container">
+        <h3 class="main-section-title pt-5">
+            Jetzt Registrieren und 30 Tage Kostenlos Testen
+        </h3>
+        <p class="main-section-description">
             Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore.
         </p>
+        <button class="blue-btn trial-banner__btn">
+            JETZT REGISTRIEREN
+        </button>
     </div>
 </div>
 
@@ -441,7 +470,21 @@
     $('.testimonials__slider').slick({
         infinite: true,
         slidesToShow: 3,
-        slidesToScroll: 3
+        slidesToScroll: 3,
+        responsive: [
+            {
+                breakpoint: 1270,
+                settings: {
+                    slidesToShow: 2
+                }
+            }
+        ]
+    });
+    $('.laptop-slider__wrap').slick({
+        infinite: true,
+        slidesToShow: 1,
+        slidesToScroll: 1,
+        dots: true
     });
 </script>
 </body>
