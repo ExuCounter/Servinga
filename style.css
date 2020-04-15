@@ -1246,6 +1246,19 @@ body{
     overflow: hidden;
 }
 
+.logo-row__container{
+    display: flex;
+    justify-content: space-between;
+    max-width: 1070px;
+    margin: 0 auto;
+    padding: 10em 1.5em;
+}
+
+.logo-row img{
+    max-height: 9.5em;
+    width: auto;
+}
+
 /* MEDIA QUERIES */
 
 @media screen and (max-width: 1440px){
@@ -1558,6 +1571,13 @@ body{
         }
         .testimonials__slider{
             max-width: 84.2%;
+        }
+        .logo-row__container{
+            padding: 7em 1.5em;
+            flex-direction: column;
+        }
+        .logo-row__container img{
+            margin-bottom: 3rem;
         }
 }
 
