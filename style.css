@@ -1134,7 +1134,7 @@ body{
     width: 4.3rem;
     height: 4.3rem;
     position: absolute;
-    left: -5.125em;
+    left: -5.65em;
     top: -5em;
 }
 
@@ -1145,7 +1145,7 @@ body{
     width: 4.3rem;
     height: 4.3rem;
     position: absolute;
-    right: -5.125em;
+    right: -5.65em;
     top: -5em;
 }
 
@@ -1242,12 +1242,13 @@ body{
     z-index: 0;
 }
 
+.testimonials{
+    overflow: hidden;
+}
+
 /* MEDIA QUERIES */
 
 @media screen and (max-width: 1440px){
-    .laptop-slider__wrap .slick-next:before{
-        right: 1rem;
-    }
     .laptop-slider__wrap .slick-next:after{
         left: 0rem;
     }
@@ -1268,6 +1269,12 @@ body{
 @media screen and (max-width: 1270px){
     .testimonials__slider .slick-arrow:before{
         bottom: 0;
+    }
+    .testimonials__slider{
+        max-width: 94.4%;
+    }
+    .testimonials__slider .slick-arrow:before{
+        top: 0%;
     }
 }
 
@@ -1296,6 +1303,9 @@ body{
     .blog__row .blog__row-block img{
         max-width: 100%;
         height: auto;
+    }
+    .testimonials__slider{
+        max-width: 91.4%;
     }
 }
 
@@ -1394,6 +1404,12 @@ body{
     }
     .top-bar__row__nav-col .top-bar__row__nav-col__list li p.active:after{
         transform: rotate(-180deg)
+    }
+    .laptop-slider img{
+        max-width: 70em;
+    }
+    .testimonials__slider{
+        max-width: 89.9%;
     }
 }
 
@@ -1537,6 +1553,12 @@ body{
             width: 100%;
             margin: 0.5rem 3rem 0rem 3rem;
         }
+        .laptop-slider img{
+            max-width: 40em;
+        }
+        .testimonials__slider{
+            max-width: 84.2%;
+        }
 }
 
 @media screen and (max-width: 420px){
@@ -1609,5 +1631,20 @@ body{
         }
         .blog__row-block__excerpt{
             margin-bottom: 1.5rem;
+        }
+        .laptop-slider img{
+            max-width: 90%;
+        }
+        .testimonials{
+            font-size: 80%;
+        }
+        .laptop-slider__wrap{
+            margin-top: 8rem;
+        }
+        .laptop-slider{
+            padding-bottom: 8em;
+        }
+        .testimonials__slider{
+            max-width: 80.2%;
         }
 }
