@@ -1841,15 +1841,6 @@ body{
     .testimonials__slider-block__text{
         width: 80%;
     }
-}
-
-@media screen and (max-width: 840px){
-    html{
-        font-size: 34.5%;
-    }
-}
-
-@media screen and (max-width: 767px){
     .top-bar__row__nav-col .top-bar__row__nav-col__list{
         font-size: 24px;
         position: fixed;
@@ -1882,7 +1873,7 @@ body{
         display: flex;
         justify-content: flex-end;
     }
-    .burger-menu{ 
+    .burger-menu{
         display: block;
         outline: none;
     }
@@ -1892,6 +1883,15 @@ body{
     .top-bar{
         padding: 3.2em 3em;
     }
+}
+
+@media screen and (max-width: 840px){
+    html{
+        font-size: 34.5%;
+    }
+}
+
+@media screen and (max-width: 767px){
     .footer{
         font-size: 7.25px;
 
@@ -1948,11 +1948,90 @@ body{
     .content-page header{
         height: 39em;
     }
+    .main-section-description{
+        font-size: 2.2em;
+    }
+    .header__bottom-bar{
+        flex-wrap: wrap;
+    }
+    .price__btn-container{
+        display: flex;
+        flex-direction: column;
+    }
+    .benefits__row{
+        flex-direction: column;
+        align-items: center;
+    }
+    .benefits__row > div{
+        margin-bottom: 3em;
+    }
+    .buttons__container{
+        flex-direction: column;
+    }
+    .header .buttons__container button {
+        margin-bottom: 3rem !important;
+    }
+    .logo-row__container{
+        padding: 7em 2.5em;
+        flex-direction: column;
+    }
+    .products__row, .unsere-refenzen__img-row{
+        flex-direction: column;
+        align-items: center;
+    }
+    .unsere-refenzen__img-row img{
+        margin-bottom: 2em;
+    }
+    .home-page .header h1{
+        font-size: 5em;
+        line-height: 1.5;
+    }
+    .home-page .logo-row__container{
+        flex-direction: row;
+
+    }
+    .home-page .logo-row__container img{
+        max-width: 15em;
+    }
+    .home-page .header__bottom-bar div{
+        margin-left: 0;
+    }
+    .home-page .header{
+        padding-bottom: 12em;
+    }
+    .home-page .logo-row__container{
+        padding: 0;
+        padding-bottom: 3em;
+    }
+    .home-page h1{
+        font-size: 2.5em !important;
+        line-height: 1.5;
+    }
+    .products{
+        padding: 6em 0em;
+    }
+    .benefits{
+        padding: 4em 0em;
+    }
+    .unsere-product{
+        padding: 3em 0em;
+    }
+    .home-page .logo-row__container{
+        padding: 2em 2em 4em 0em;
+    }
+    .products__row-block{
+        padding: 4em 2em;
+        font-size: 11px;
+    }
 }
 
 @media screen and (max-width: 575px){
         html{
             font-size: 55%;
+        }
+        .home-page .header h1{
+            font-size: 4em;
+            line-height: 1;
         }
         .refenzen-gallery{
             font-size: 7px;
@@ -1971,7 +2050,7 @@ body{
             margin-bottom: 2em;
         }
         .footer{ 
-            font-size: 9px;
+            font-size: 7.6px;
         }
         .main-section-description {
             max-width: 100%;
@@ -2017,13 +2096,6 @@ body{
         }
         .top-bar__row__nav-col .top-bar__row__nav-col__list li:nth-child(2) p:after{
             right: 3.2em;
-        }
-        .benefits__row{
-            flex-direction: column;
-            align-items: center;
-        }
-        .benefits__row > div{
-            margin-bottom: 3em;
         }
         .find__row-col__map{
             height: 45rem;
@@ -2077,15 +2149,6 @@ body{
         .blog{
             font-size: 8px;
         }
-        .buttons__container{
-            flex-direction: column;
-        }
-        .header .buttons__container button {
-            margin-bottom: 3rem !important;
-        }
-        .header__bottom-bar{
-            flex-wrap: wrap;
-        }
         .header__bottom-bar div{
             width: 100%;
             margin: 0.5rem 3rem 0rem 3rem;
@@ -2096,13 +2159,12 @@ body{
         .testimonials__slider{
             max-width: 84.2%;
         }
-        .logo-row__container{
-            padding: 7em 1.5em;
-            flex-direction: column;
-        }
         .logo-row__container img{
             margin-bottom: 3rem;
-        }
+        }.products__row-block{
+        padding: 4em 2em;
+        font-size: 11px;
+    }
         .content-page header{
             height: 35em;
         }
@@ -2119,10 +2181,6 @@ body{
             max-width: 90%;
             width: 100%;
         }
-        .price__btn-container{
-            display: flex;
-            flex-direction: column;
-        }
         .price__btn-container .transparent-btn{
             margin-top: 3rem;
         }
@@ -2134,6 +2192,25 @@ body{
         }
         .price{
             padding-top: 5rem;
+        }
+        .home-page .logo-row__container img{
+            max-width: 13em;
+        }
+        .home-page .logo-row__container{
+            padding: 2em 2em 4em 0em;
+        }
+        .products__row-block{
+            padding: 4em 2em;
+            font-size: 9px;
+        }
+        .home-page .main-section-title{
+            font-size: 2em !important;
+        }
+        .home-page .main-section-description{
+            font-size: 1.5em !important;
+        }
+        .home-page .main-section-description{
+            padding-left: 0;
         }
 }
 
@@ -2148,8 +2225,17 @@ body{
         .benefits{
             font-size: 8px;
         }
+        .products__row-block{
+            font-size: 9px;
+        }
+        .home-page .logo-row__container img{
+            max-width: 8em;
+        }
         .top-bar__row__nav-col__видsub-list{
             left: 0em;
+        }
+        .home-page .logo-row__container{
+            padding: 2em 2em 5em 0em;
         }
         .bottom-bar__row__menu-col ul li a {
             margin-right: 1.5rem;
@@ -2234,6 +2320,9 @@ body{
         .testimonials__slider-block__text{
             width: 30rem;
         }
+        .footer{
+            font-size: 9px !important;
+        }
 }
 
 @media screen and (max-width: 350px){
@@ -2241,3 +2330,39 @@ body{
         width: 23rem;
     }
 }
+
+/* MEDIA SCREENS */
+
+@media screen and (min-width: 768px) and (max-width: 992px){
+    .top-bar{
+        font-size: 7.5px;
+    }
+    html{
+        font-size: 8px;
+    }
+    .footer{
+        font-size: 9px;
+    }
+}
+
+@media screen and (min-width: 578px) and (max-width: 767px){
+    .top-bar{
+        font-size: 6.8px;
+    }
+    html{
+        font-size: 10px;
+    }
+    .footer{
+        font-size: 9px;
+    }
+}
+
+@media screen and (max-width: 578px){
+    html{
+        font-size: 9px;
+    }
+    .footer{
+        font-size: 10px;
+    }
+}
+
