@@ -2111,7 +2111,10 @@ body{
             font-size: 10px;
         }
         .benefits .container{
-            padding: 7em 0em;
+            padding: 3em 0em;
+        }
+        .unsere-refenzen{
+            padding-top: 0;
         }
         .contact-form__row__left-col{
             font-size: 9px;
@@ -2204,13 +2207,16 @@ body{
             font-size: 9px;
         }
         .home-page .main-section-title{
-            font-size: 2em !important;
+            font-size: 2.3em !important;
         }
         .home-page .main-section-description{
-            font-size: 1.5em !important;
+            font-size: 1.8em !important;
         }
         .home-page .main-section-description{
             padding-left: 0;
+        }
+        .home-page .main-section-description{
+            padding-right: 0;
         }
 }
 
