@@ -1327,7 +1327,19 @@ body{
 
 .content-page .benefits:after{
     content: '';
-    background-image: url(img/world-map-dots.svg);
+    background-image: url(img/white-dots-map.svg);
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    top: 0;
+    left: 0;
+    position: absolute;
+    z-index: 0;
+}
+
+.contact-page .benefits:after{
+    content: '';
+    background-image: url(img/white-dots-map.svg);
     width: 100%;
     height: 100%;
     background-size: cover;
