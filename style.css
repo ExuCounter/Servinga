@@ -1045,6 +1045,22 @@ body{
     z-index: 0;
 }
 
+.price-page .header{
+    position: relative;
+}
+
+.price-page .header:after{
+    content: '';
+    background-image: url(img/white-dots-map.svg);
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    top: 0;
+    left: 0;
+    position: absolute;
+    z-index: 0;
+}
+
 .testimonials__slider{
     display: flex;
     max-width: 1170px;
