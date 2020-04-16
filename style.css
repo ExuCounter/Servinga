@@ -1073,9 +1073,18 @@ body{
     z-index: 1;
 }
 
-.testimonials__slider, .testimonials .container{
+.laptop-slider, .laptop-slider .container, .testimonials .container, .testimonials__slider{
     width: 100%;
-    max-width: 100%;
+    max-width: 100% !important;
+    margin: 0 auto;
+}
+
+.testimonials__slider-block{
+    margin: 0 auto;
+}
+
+.testimonials__slider-block__text{
+    width: 36rem;
 }
 
 .slick-slide{
@@ -1161,7 +1170,7 @@ body{
     width: 4.3rem;
     height: 4.3rem;
     position: absolute;
-    left: -5.65em;
+    left: 6px;
     top: -5em;
 }
 
@@ -1172,8 +1181,14 @@ body{
     width: 4.3rem;
     height: 4.3rem;
     position: absolute;
-    right: -5.65em;
+    right: 7px;
     top: -5em;
+}
+
+.testimonials .slick-slide{
+    display: flex !important;
+    flex-direction: column !important;
+    align-items: center;
 }
 
 .laptop-slider__wrap{
@@ -1204,12 +1219,11 @@ body{
     width: 4.3rem;
     height: 4.3rem;
     position: absolute;
-    left: 1em;
+    left: 6px;
     top: -100%;
 }
 
 .laptop-slider .container{
-    max-width: 1440px;
     margin: 0 auto;
 }
 
@@ -1226,7 +1240,7 @@ body{
     width: 4.3rem;
     height: 4.3rem;
     position: absolute;
-    right: 1em;
+    right: 7px;
     top: -100%;
 }
 
@@ -1489,18 +1503,6 @@ body{
 
 /* MEDIA QUERIES */
 
-@media screen and (max-width: 1440px){
-    .laptop-slider__wrap .slick-next:after{
-        left: 0rem;
-    }
-    .testimonials__slider .slick-prev:before{
-        left: -2rem;
-    }
-    .testimonials__slider .slick-next:before{
-        right: -2rem;
-    }
-}
-
 @media screen and (max-width: 1300px){
     html{
         font-size: 55%;
@@ -1560,11 +1562,11 @@ body{
         max-width: 100%;
         height: auto;
     }
-    .testimonials__slider{
-        max-width: 91.4%;
-    }
     .content-page header{
         height: 44em;
+    }
+    .testimonials__slider-block__text{
+        width: 80%;
     }
 }
 
@@ -1956,4 +1958,13 @@ body{
         .price-table{
             width: 500px;
         }
+        .testimonials__slider-block__text{
+            width: 30rem;
+        }
+}
+
+@media screen and (max-width: 350px){
+    .testimonials__slider-block__text{
+        width: 23rem;
+    }
 }
