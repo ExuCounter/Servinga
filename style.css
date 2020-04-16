@@ -1432,6 +1432,7 @@ body{
 .table__description{
     font-family: var(--averta-light);
     padding-bottom: 8rem;
+    font-size: 1.6rem;
 }
 
 .price-table td, .price-table th{
