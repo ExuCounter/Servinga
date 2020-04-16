@@ -885,6 +885,7 @@ body{
     height: auto;
     position: relative;
     transition: all 0.3s ease-in-out;
+    margin-bottom: 4rem;
 }
 
 .jobs-description{
@@ -1070,6 +1071,11 @@ body{
 .testimonials__slider-block{
     position: relative;
     z-index: 1;
+}
+
+.testimonials__slider, .testimonials .container{
+    width: 100%;
+    max-width: 100%;
 }
 
 .slick-slide{
