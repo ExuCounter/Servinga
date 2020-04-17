@@ -1371,6 +1371,10 @@ body{
     z-index: 0;
 }
 
+.contact-page .benefits{
+    position: relative;
+}
+
 .contact-page .benefits:after{
     content: '';
     background-image: url(img/white-dots-map.svg);
@@ -1730,6 +1734,17 @@ body{
 
 .home-page .benefits .benefits-title, .unsere-refenzen .unsere-refenzen-title{
     font-size: 3.7rem;
+}
+
+.products__row-first .products__row-block{
+    transition: box-shadow 0.2s cubic-bezier(0.4, 0, 1, 1), background 0.2s cubic-bezier(0.4, 0, 0.2, 1);
+    background-position: center !important;
+}
+
+.products__row-first .products__row-block:hover{
+    background-size: 110% 110%;
+    background-position: center;
+    transition: box-shadow 0.2s cubic-bezier(0.4, 0, 1, 1), background 0.2s cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .unsere-refenzen{
@@ -2168,9 +2183,9 @@ body{
         .logo-row__container img{
             margin-bottom: 3rem;
         }.products__row-block{
-        padding: 4em 2em;
-        font-size: 11px;
-    }
+            padding: 4em 2em;
+            font-size: 11px;
+        }
         .content-page header{
             height: 35em;
         }
