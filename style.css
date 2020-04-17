@@ -5,11 +5,10 @@
     --main-description-color: #748A99;
     --averta-regular: 'Averta Regular', sans-serif;
     --averta-bold: 'Averta Bold', sans-serif;
-    --averta-semibold: 'Averta Semibold', sans-serif;
+    --averta-semibold: 'Averta-Semibold', sans-serif;
     --averta-light: 'Averta Light', sans-serif;
     --averta-thin: 'Averta Thin', sans-serif;
 }
-
 
 /* FONTS */
 
@@ -92,6 +91,10 @@ body{
     padding-bottom: 2.6em;
     text-align: center;
 
+}
+
+text{
+    font-family: var(--averta-semibold) !important;
 }
 
 .main-section-btn{
@@ -1818,7 +1821,7 @@ body{
     max-width: 1240px;
 }
 
-.unsere-product img{
+.unsere-product svg{
     padding-top: 3rem;
     width: 100%;
     height: auto;

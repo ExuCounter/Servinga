@@ -123,10 +123,10 @@
         <rect id="Rectangle" fill="#94A3B0" transform="translate(1111.000000, 409.500000) scale(-1, -1) translate(-1111.000000, -409.500000) " x="1110" y="398" width="2" height="23"></rect>
         <rect id="Rectangle" fill="#94A3B0" transform="translate(986.000000, 409.500000) scale(-1, -1) translate(-986.000000, -409.500000) " x="985" y="398" width="2" height="23"></rect>
         <path d="M851.434277,310.995476 C886.688846,328.030445 911,364.064067 911,405.761775 C911,463.883242 863.766041,511 805.5,511 C747.233959,511 700,463.883242 700,405.761775 C700,364.064067 724.311154,328.030445 759.565723,310.995476 C773.45168,317.709195 789.035387,321.471443 805.5,321.471443 C821.814492,321.471443 837.264068,317.777489 851.054025,311.182313 Z" id="Combined-Shape" fill="#8999A8" opacity="0.9"></path>
-        <text id="SERVICES" font-family="Averta-Semibold" font-size="14" font-weight="500" letter-spacing="0.61" fill="#FFFFFF">
+        <text id="SERVICES" font-family="Averta Semibold" font-size="14" font-weight="500" letter-spacing="0.61" fill="#FFFFFF">
             <tspan x="770" y="447">SERVICES</tspan>
         </text>
-        <text id="STORAGE" font-family="Averta-Semibold" font-size="14" font-weight="500" letter-spacing="0.61" fill="#FFFFFF">
+        <text id="STORAGE" style='font-family:"Averta Semibold !important"' font-family="Averta Semibold" font-size="14" font-weight="500" letter-spacing="0.61" fill="#FFFFFF">
             <tspan x="569" y="444">STORAGE</tspan>
         </text>
         <rect id="Rectangle" fill="#94A3B0" transform="translate(1067.000000, 399.000000) scale(-1, -1) translate(-1067.000000, -399.000000) " x="907" y="398" width="320" height="2"></rect>
