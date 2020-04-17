@@ -1362,7 +1362,7 @@ text{
     margin-bottom: 5.5rem;
 }
 
-.content-page .benefits:after, .services:after{
+.services:after{
     content: '';
     background-image: url(img/white-dots-map.svg);
     width: 100%;
@@ -1376,18 +1376,6 @@ text{
 
 .contact-page .benefits{
     position: relative;
-}
-
-.contact-page .benefits:after{
-    content: '';
-    background-image: url(img/white-dots-map.svg);
-    width: 100%;
-    height: 100%;
-    background-size: cover;
-    top: 0;
-    left: 0;
-    position: absolute;
-    z-index: 0;
 }
 
 .quote-banner{
