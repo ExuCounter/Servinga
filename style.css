@@ -100,7 +100,7 @@ text{
 .main-section-btn{
     display: block;
     margin: 0 auto;
-    padding: 1.7rem 6.9rem 2rem 6.9rem;
+    padding: 2rem 6.9rem 2rem 6.9rem;
     background-color: var(--main-color);
     color: #FFF;
     border: solid 2px var(--main-color);
@@ -1871,6 +1871,7 @@ text{
 .white-btn, .blue-btn, .transparent-btn{
     z-index: 2;
     position: relative;
+    font-weight: bold;
 }
 
 /* MEDIA QUERIES */
