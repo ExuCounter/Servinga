@@ -3,8 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="c0b16548-ea82-4249-aa2d-0622a623668d" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/style.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -33,7 +31,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="js.buildTools.gulp.gulp_package_dir" value="$PROJECT_DIR$/node_modules/gulp" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/img" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Invictus" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -107,7 +105,8 @@
       <workItem from="1587046947475" duration="2075000" />
       <workItem from="1587049672057" duration="585000" />
       <workItem from="1587051423925" duration="692000" />
-      <workItem from="1587052644745" duration="17675000" />
+      <workItem from="1587052644745" duration="18215000" />
+      <workItem from="1587121539834" duration="99000" />
     </task>
     <servers />
   </component>
@@ -119,10 +118,10 @@
       <screen x="0" y="0" width="1600" height="852" />
     </state>
     <state x="516" y="83" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1600.852@0.0.1600.852" timestamp="1586887500224" />
-    <state x="826" y="184" width="424" height="484" key="FileChooserDialogImpl" timestamp="1586900535703">
+    <state x="826" y="184" width="424" height="484" key="FileChooserDialogImpl" timestamp="1587121637433">
       <screen x="0" y="0" width="1600" height="852" />
     </state>
-    <state x="826" y="184" width="424" height="484" key="FileChooserDialogImpl/0.0.1600.852@0.0.1600.852" timestamp="1586900535703" />
+    <state x="826" y="184" width="424" height="484" key="FileChooserDialogImpl/0.0.1600.852@0.0.1600.852" timestamp="1587121637433" />
     <state width="1554" height="212" key="GridCell.Tab.0.bottom" timestamp="1586886011812">
       <screen x="0" y="0" width="1600" height="852" />
     </state>
