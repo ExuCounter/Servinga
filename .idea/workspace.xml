@@ -2,10 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c0b16548-ea82-4249-aa2d-0622a623668d" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fonts/Averta-Light.woff" beforeDir="false" afterPath="$PROJECT_DIR$/fonts/Averta-Light.woff" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fonts/Averta-Regular.woff" beforeDir="false" afterPath="$PROJECT_DIR$/fonts/Averta-Regular.woff" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -115,7 +112,7 @@
       <workItem from="1587154795214" duration="200000" />
       <workItem from="1587155383177" duration="1428000" />
       <workItem from="1587378827286" duration="19000" />
-      <workItem from="1587379822757" duration="3682000" />
+      <workItem from="1587379822757" duration="3763000" />
     </task>
     <servers />
   </component>
