@@ -1616,7 +1616,7 @@ text{
 }
 
 .products__row-block__title{
-    font-size: 2.2em;
+    font-size: 1.9rem;
     font-family: var(--averta-semibold);
     padding-bottom: 1rem;
     color: var(--white);
@@ -1685,7 +1685,7 @@ text{
 }
 
 .products__row-test-block p{
-    font-size: 1.4em;
+    font-size: 1.4rem;
     font-family: var(--averta-light);
 }
 
@@ -1736,7 +1736,7 @@ text{
 }
 
 .products__test-row{
-    max-width: 800px;
+    max-width: 850px;
     display: flex;
     justify-content: center;
     margin: 0 auto;
