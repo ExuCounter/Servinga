@@ -957,7 +957,6 @@ text{
 .jobs-description ul{
     padding-left: 2rem;
 }
-
 /* BLOG */
 
 .blog .top-bar{
@@ -1843,9 +1842,20 @@ text{
     padding-bottom: 5rem;
 }
 
-.unsere-refenzen__img-row img{
+.unsere-refenzen__img-row img, .unsere-refenzen__img-row svg{
     width: 20.2em;
     height: auto;
+    fill: #e2e2e2 !important;
+    cursor: pointer;
+}
+
+.unsere-refenzen__img-row svg:hover path, .unsere-refenzen__img-row svg:hover rect, .unsere-refenzen__img-row svg:hover polygon{
+    fill: #16325B;
+}
+
+.unsere-refenzen__img-row svg path, .unsere-refenzen__img-row svg rect, .unsere-refenzen__img-row svg polygon{
+    fill: #e2e2e2;
+    transition: 0.2s ease-in-out;
 }
 
 .unsere-refenzen a{
