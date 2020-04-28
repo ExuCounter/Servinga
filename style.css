@@ -2605,6 +2605,13 @@ text{
     }
 }
 
+@media screen and (min-width: 579px) and (max-width: 768px){
+    .top-bar.sticky{
+        padding-top: 15px;
+        padding-bottom: 15px;
+    }
+}
+
 @media screen and (min-width: 992px){
     .top-bar.sticky{
         padding-top: 28px;
