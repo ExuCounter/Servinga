@@ -1,8 +1,26 @@
 let burgerMenu = document.querySelector('.burger-menu'); // BURGER
+let topBarRow = document.querySelector('.top-bar__row');
 let topBarNavCol = document.querySelector('.top-bar__row__nav-col__list'); // CONTAINER
 let menuLinks = document.querySelectorAll('.top-bar__row-col__nav a');
 let closeMenuBtn = document.querySelector('.close-btn');
 let menuButtons = document.querySelectorAll('.top-bar__row__nav-col .top-bar__row__nav-col__list p');
+
+function getBodyScrollTop()
+{
+    return self.pageYOffset || (document.documentElement && document.documentElement.scrollTop) || (document.body && document.body.scrollTop);
+}
+
+window.onscroll = function(){
+    if(document.body.classList.contains('home-page')){
+        if(getBodyScrollTop() > 0){
+            document.querySelector('.top-bar').classList.add('sticky');
+        }
+        else{
+            document.querySelector('.top-bar').classList.remove('sticky');
+        }
+    }
+}
+
 
 menuButtons.forEach((item)=>{
     item.addEventListener('click', ()=>{

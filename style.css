@@ -53,6 +53,15 @@ body{
     margin-left: -1px;
 }
 
+.top-bar.sticky{
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+    width: 100%;
+    box-shadow: 0px 4px 6px -3px #aaa9a9;
+}
+
 .close-btn{
     border: none;
     background-color: transparent;
@@ -192,6 +201,7 @@ text{
 .top-bar{
     background-color: var(--white);
     padding: 7.2em 6.8em 2.2em 6.8em;
+    transition: 0.15s ease-out;
 }
 
 .top-bar__container{
@@ -287,7 +297,7 @@ text{
 }
 
 .top-bar__row__nav-col .top-bar__row__nav-col__list li a:hover{
-    color: #21387f;
+    text-decoration: underline;
 }
 
 .top-bar__row__nav-col .top-bar__row__nav-col__list li p{
@@ -2589,5 +2599,15 @@ text{
     .footer{
         font-size: 10px;
     }
+    .top-bar.sticky{
+        padding-top: 0px;
+        padding-bottom: 15px;
+    }
 }
 
+@media screen and (min-width: 992px){
+    .top-bar.sticky{
+        padding-top: 28px;
+        padding-bottom: 0px;
+    }
+}
