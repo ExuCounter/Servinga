@@ -11,13 +11,11 @@ function getBodyScrollTop()
 }
 
 window.onscroll = function(){
-    if(document.body.classList.contains('home-page')){
-        if(getBodyScrollTop() > 0){
-            document.querySelector('.top-bar').classList.add('sticky');
-        }
-        else{
-            document.querySelector('.top-bar').classList.remove('sticky');
-        }
+    if(getBodyScrollTop() > 0){
+        document.querySelector('.top-bar').classList.add('sticky');
+    }
+    else{
+        document.querySelector('.top-bar').classList.remove('sticky');
     }
 }
 
