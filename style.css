@@ -51,20 +51,6 @@ body{
 
 .footer{
     margin-left: -1px;
-    position: relative;
-    overflow: hidden;
-    background: var(--main-color) !important;
-}
-
-.footer:before{
-    content: url(img/footer-bg.svg);
-    width: 100%;
-    height: 100%;
-    background-size: cover;
-    background-position: center !important;
-    position: absolute;
-    top: 0;
-    left: 12.5%;
 }
 
 .top-bar.sticky{
