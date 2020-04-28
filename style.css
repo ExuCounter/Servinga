@@ -65,7 +65,7 @@ body{
     border: none;
     background-color: transparent;
     position: absolute;
-    top: 0.5em;
+    top: 0.501em;
     right: 0.75em;
     z-index: 10;
     display: none;
